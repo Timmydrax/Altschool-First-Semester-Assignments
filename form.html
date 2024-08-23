@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment One(Form)</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- <header id="top-2-anchor">
+      <nav class="navbar">
+        <a href="./index.html"><button class="navbtn">Homepage</button></a>
+        <a href="./table.html"><button class="navbtn">Schools & Courses</button></a>
+        <a href="./media.html"><button class="navbtn">Media</button></a>
+        <a href="./form.html"><button class="navbtn" id="applyBtn">Apply Now</button></a>
+      </nav>
+    </header> -->
+    <main>
+      <section class="form-container">
+        <section class="form-image-container">
+          <div class="altschool-illustration">
+            <img
+              src="./assets/images/Altschool Image.png"
+              alt="An illustration from AltschoolAfrica"
+            />
+          </div>
+
+          <div class="intro-text">
+            <p>
+              Learn highly sought<br />
+              after skills without<br />
+              hassle.
+            </p>
+          </div>
+
+          <div class="icons">
+            <a href="#"
+              ><img src="/assets/images/twitter icon.png" alt="a twitter icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="/assets/images/Instagram Icon.png"
+                alt="a instagram icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="/assets/images/Facebook icon.png"
+                alt="a facebook icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="/assets/images/LinkedIn icon.png"
+                alt="a linkedin icon"
+            /></a>
+          </div>
+
+          <div class="contact-info">
+            <p>TEL: 0800ALTSCHOOL</p>
+            <p>©2024 AltSchool Africa. All rights reserved.</p>
+          </div>
+        </section>
+
+        <section class="form-texts-container">
+          <div class="form-texts-sign-in">
+            <p>Already an Altschooler? <a href="#">Sign In</a></p>
+          </div>
+          <div class="form-texts-sign-up">
+            <h3>Sign Up</h3>
+            <p>Take the next step to apply at Altschool Africa</p>
+          </div>
+
+          <form class="form-inputs">
+            <div class="form-inputs-row">
+              <div class="form-inputs-container">
+                <label for="firstname">First Name</label><br />
+                <input
+                  type="text"
+                  name="text"
+                  id="firstname"
+                  placeholder="Enter first name"
+                /><br /><br />
+              </div>
+
+              <div class="form-inputs-container">
+                <label for="lastname">Last Name</label><br />
+                <input
+                  type="text"
+                  name="text"
+                  id="lastname"
+                  placeholder="Enter last name"
+                /><br /><br />
+              </div>
+            </div>
+
+            <div class="form-inputs-row">
+              <div class="form-inputs-container" id="select-input-1">
+                <label for="gender">Gender</label><br />
+                <select id="gender">
+                  <option value="" disabled selected>Select gender</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                </select>
+                <br />
+                <br />
+              </div>
+
+              <div class="form-inputs-container">
+                <label for="date">Date of Birth</label><br />
+                <input type="date" id="date" /><br /><br />
+              </div>
+            </div>
+
+            <div class="form-inputs-row">
+              <div class="form-inputs-container">
+                <label for="email">Email address</label><br />
+                <input
+                  type="email"
+                  placeholder="Enter email address"
+                  id="email"
+                /><br /><br />
+              </div>
+
+              <div class="form-inputs-container">
+                <label for="tel">Phone Number</label><br />
+                <input
+                  type="tel"
+                  placeholder="08123456789"
+                  id="tel"
+                /><br /><br />
+              </div>
+            </div>
+
+            <div class="form-inputs-row">
+              <div class="form-inputs-container" id="select-input-2">
+                <label for="country">Country</label><br />
+                <select id="country">
+                  <option value="" disabled selected>
+                    Select your country
+                  </option>
+                  <option>Nigeria</option>
+                  <option>Kenya</option>
+                  <option>Nairobi</option>
+                  <option>Senegal</option>
+                  <option>USA</option>
+                  <option>United Kingdom</option>
+                  <option>Norway</option></select
+                ><br /><br />
+              </div>
+
+              <div class="form-inputs-container">
+                <label for="residence">State/City of Residence</label><br />
+                <input
+                  type="text"
+                  placeholder="State of residence"
+                  id="residence"
+                /><br /><br />
+              </div>
+            </div>
+
+            <div class="form-inputs-row">
+              <div class="form-inputs-container">
+                <label for="channel">How did you hear about us?</label><br />
+                <select id="channel">
+                  <option value="" disabled selected>Select channel</option>
+                  <option>Twitter</option>
+                  <option>Instagram</option>
+                  <option>Facebook</option>
+                  <option>LinkedIn</option>
+                  <option>Youtube</option>
+                  <option>Whatsapp</option>
+                  <option>Friend</option>
+                  <option>Bill Board</option></select
+                ><br /><br />
+              </div>
+            </div>
+
+            <div class="form-inputs-row">
+              <div class="form-inputs-container">
+                <label for="password">Password</label><br />
+                <input
+                  type="password"
+                  placeholder="Enter password"
+                  id="password"
+                /><br /><br />
+              </div>
+
+              <div class="form-inputs-container">
+                <label for="confirm-password">Confirm Password</label><br />
+                <input
+                  type="password"
+                  placeholder="Enter password"
+                  id="confirm-password"
+                /><br /><br />
+              </div>
+            </div>
+          </form>
+          <div class="form-bottom-text">
+            <p>
+              By clicking continue, I agree to <a href="#">Terms of use</a> and
+              acknowledge that<br />
+              I've read the <a href="#">Privacy Policy.</a>
+            </p>
+          </div>
+
+          <div class="form-submit-btn">
+            <button>Submit</button>
+          </div>
+          <br /><br />
+
+          <a href="./index.html" class="homebtn"><b>Go back to Homepage</b></a>
+        </section>
+      </section>
+    </main>
+    <!-- <footer>
+      <a href="#top-2-anchor" id="top-2">
+        <button type="button">Scroll to Top</button>
+      </a>
+      <br/>
+      
+    <p>Timmy’s Assignment @ 2024. All rights reserved.</p>
+    </footer> -->
+  </body>
+</html>

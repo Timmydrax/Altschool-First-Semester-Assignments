@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment Two(Media)</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <header id="media-top">
+        <nav class="navbar">
+          <a href="./index.html"><button class="navbtn">Homepage</button></a>
+          <a href="./table.html"
+            ><button class="navbtn">Schools & Courses</button></a
+          >
+          <a href="./media.html"><button class="navbtn">Media</button></a>
+          <a href="./form.html"
+            ><button class="navbtn" id="applyBtn">Apply Now</button></a
+          >
+        </nav>
+      </header>
+      <section class="media-container">
+        <!-- heading -->
+        <section class="media-intro">
+          <h1>Utilizing Multimedia Elements</h1>
+
+          <div class="media-intro-1">
+            <h3>A Powerful Message About My Taste in Music</h3>
+
+            <p>
+              Music has always been more than just sound to me; it's a way of
+              expressing my emotions and understanding the world. Among the
+              artists who resonate most deeply with me is the British rapper
+              Dave. His ability to blend raw emotion with social commentary in
+              his lyrics is unparalleled.<br />
+              Dave's music speaks to me on a personal level. Tracks like "Black"
+              and "Psycho" explore themes of identity, mental health, and the
+              challenges of life, all of which have helped me navigate my own
+              experiences. His introspective approach inspires me to think
+              deeply about my own life and the world around me.<br />
+              Beyond his music, Dave’s influence extends into broader cultural
+              conversations, making him not just a musician but a voice for
+              change. His courage to tackle tough issues head-on inspires me to
+              be more outspoken about what I believe in. Dave's music is more
+              than just entertainment for me; it's a source of inspiration,
+              reflection, and growth. His artistry has profoundly shaped how I
+              see the world, making him a central figure in my musical journey.
+            </p>
+          </div>
+
+          <div class="media-intro-2">
+            <h3>You must be wondering, Who’s Dave?</h3>
+            <p>
+              Dave, whose full name is David Orobosa Omoregie, is a British
+              rapper, singer, songwriter, and record producer. Born on June 5,
+              1998, in Streatham, London, Dave quickly rose to prominence in the
+              UK music scene with his thought-provoking lyrics, introspective
+              themes, and versatile musical style. His debut album,
+              "Psychodrama," released in 2019, received critical acclaim and won
+              the Mercury Prize, establishing him as one of the most influential
+              voices in contemporary British rap. Dave's music often explores
+              themes of identity, mental health, and social issues, resonating
+              deeply with his audience.
+            </p>
+          </div>
+        </section>
+
+        <!-- picture -->
+        <section class="media-picture">
+          <h3>Picture Element</h3>
+
+          <div class="picture-container">
+            <picture>
+              <!-- Large screen -->
+              <source
+                srcset="./assets/images/Psychodrama-Cover-large.jpg"
+                media="(min-width: 1024px)"
+                width="1200"
+                height="800"
+              />
+              <!-- Medium screen -->
+              <source
+                srcset="./assets/images/Psychodrama-Cover-Medium.jpg"
+                media="(min-width: 768px)"
+                width="800"
+                height="533"
+              />
+              <!-- small screen -->
+              <source
+                srcset="./assets/images/Psychodrama-Cover-Mobile.jpg"
+                media="(max-width: 767px)"
+                width="400"
+                height="267"
+              />
+              <!-- default -->
+              <img
+                src="./assets/images/Psychodrama-Cover-Fallback.jpg"
+                alt="An Album Cover"
+                width="400"
+                height="267"
+              />
+            </picture>
+          </div>
+
+          <p>
+            The above picture utilizes the picture element and showcases the
+            album cover of the album that brought Dave into the limelight in
+            2019.
+          </p>
+        </section>
+
+        <!-- audio -->
+        <section class="media-audio">
+          <h3>Audio Element</h3>
+          <p>
+            Using the audio element, I'd love to introduce another of Dave’s
+            musical masterpieces called 'Twenty to One,' released in 2021 as
+            part of his album 'We’re All Alone in This Together.' Play the music
+            below, and you have the option to download it too. Enjoy!
+          </p>
+          <audio controls>
+            <source
+              src="./assets/audios/Dave-Twenty-To-One-(TrendyBeatz.com).mp3"
+              type="audio/mpeg"
+            />
+            <source
+              src="./assets/audios/Dave-Twenty-To-One-_TrendyBeatz.com_.ogg"
+              type="audio/ogg"
+            />
+            Your browser does not support the audio tag
+          </audio>
+        </section>
+
+        <!-- video -->
+        <section class="media-video">
+          <h3>Video Element</h3>
+          <p>
+            Using the video element, I'd like to show one of Dave’s stage
+            performing another of his magical tunes called 'Both sides of a
+            Smile' which was also released in 2021 as part of his album 'We’re
+            All Alone in This Together.' Play the video below, and you have the
+            option to download it too. Enjoy!
+          </p>
+          <div class="video-container">
+            <video controls width="auto" height="500px">
+              <source
+                src="./assets/videos/Dave Both Sides of a Smile.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag
+            </video>
+          </div>
+        </section>
+
+        <!-- Embbed -->
+        <section class="media-embbed">
+          <h3>Embedding Element</h3>
+          <p>
+            Using the embed element, I’d like to showcase a single released in
+            2022 called 'Starlight.' This track delves into personal and
+            societal themes, further solidifying Dave’s reputation as a leading
+            artist. The song's cover art is symbolic, capturing the deep
+            emotions and stories that Dave weaves into his music.
+          </p>
+
+          <iframe
+            width="656"
+            height="369"
+            src="https://www.youtube.com/embed/hsNrfNpsETE"
+            title="Dave - Starlight | Live in Berlin | We’re All Alone In This Together Tour 2022"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <!-- In summary -->
+        <section class="media-summary">
+          <h3>In Summary</h3>
+          <p>
+            Music has always been a powerful force in my life, with Dave’s
+            lyrics particularly shaping my thoughts and emotions. His album
+            We’re All Alone in This Together deeply resonates with me,
+            reflecting my own experiences and values. For me, music is more than
+            just entertainment—it’s a story that helps define who I am. As I
+            continue to grow, Dave’s music remains a constant source of
+            inspiration, guiding me through life’s challenges with greater
+            understanding and appreciation.
+          </p>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <a href="#media-top">
+        <button type="button">Scroll to top</button>
+      </a>
+      <br />
+
+      <p>Timmy’s Assignment @ 2024. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

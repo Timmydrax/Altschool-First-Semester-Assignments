@@ -1,0 +1,629 @@
+body {
+  font-family: "Montserrat", serif;
+  margin: 0 auto;
+  padding: 0;
+  background-color: var(--color-beige);
+  /* overflow-x: hidden; */
+}
+
+:root {
+  --color-steel-blue: #306d9f;
+  --color-light-blue: #e5effa;
+  --color-beige: #fffcf8;
+  --color-typo-black: #000;
+  --color-typo-dark-grey: #3a3a3a;
+}
+
+/* Nav Bar */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--color-beige);
+}
+
+.navbtn {
+  margin-right: 48px;
+  background-color: var(--color-beige);
+  border: none;
+  color: var(--color-steel-blue);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navbtn:hover {
+  background-color: var(--color-light-blue);
+}
+
+#applyBtn {
+  background-color: var(--color-steel-blue);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  transform: background-color ease 0.4;
+}
+
+#applyBtn:hover {
+  background-color: #2b6493;
+}
+
+/* Styles for INDEX.HTML
+ THE ABOUT ME PAGE */
+
+/* Hero Section */
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-beige);
+  padding: 24px 64px;
+}
+
+.hero-text {
+  width: auto;
+}
+
+.hero-text h1 {
+  font-size: 72px;
+}
+
+.hero-text h1 span {
+  color: var(--color-steel-blue);
+}
+
+.hero-text p {
+  color: var(--color-typo-black);
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: -15px;
+}
+
+.hero-image {
+  width: auto;
+}
+
+.hero-image img {
+  max-width: 600px;
+  height: 600px;
+}
+
+/* Fragment Identifer Section */
+
+.fragment-identifier {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+#fragment-container {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 20px 0px;
+}
+
+#fragment-container li {
+  margin-right: 40px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#fragment-container a {
+  text-decoration: none;
+  color: var(--color-steel-blue);
+}
+
+#fragment-container a:hover {
+  text-decoration: underline;
+}
+
+/* Biography Section */
+
+.biography-section {
+  background-color: #fff;
+  padding: 48px 64px;
+}
+
+/* reusbale */
+.biography-section h3 {
+  display: inline;
+  font-size: 32px;
+  padding: 12px 16px;
+  background-color: var(--color-beige);
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.biography-section p {
+  margin-top: 30px;
+  line-height: 1.5;
+}
+
+/* Reason Section */
+
+.reason-section {
+  background-color: #f5f0f9;
+  padding: 48px 64px;
+}
+
+.reason-section h3 {
+  display: inline;
+  font-size: 32px;
+  padding: 12px 16px;
+  background-color: var(--color-beige);
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.reason-section p {
+  margin-top: 30px;
+  line-height: 1.5;
+}
+
+/* Goals Section */
+
+.goals-section {
+  background-color: #ffffff;
+  padding: 48px 64px;
+}
+
+.goals-section h3 {
+  display: inline;
+  font-size: 32px;
+  padding: 12px 16px;
+  background-color: var(--color-beige);
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.goals-section-intro {
+  margin-top: 30px;
+  line-height: 1.5;
+}
+
+.goals-list {
+  line-height: 1.5;
+}
+
+/* Apply Section */
+
+.apply-section {
+  background-color: var(--color-light-blue);
+  padding: 48px 64px;
+}
+
+.apply-section h3 {
+  display: inline;
+  font-size: 32px;
+  padding: 12px 16px;
+  background-color: var(--color-beige);
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.apply-section p {
+  margin-top: 30px;
+  line-height: 1.5;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-light-blue);
+  padding: 24px 64px;
+}
+
+footer button {
+  border: none;
+  background-color: var(--color-steel-blue);
+  padding: 12px 16px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color ease 0.3s;
+}
+
+footer button:hover {
+  background-color: #2b6493;
+}
+
+/* Styles for FORM.HTML 
+ THE ALTSCHOOL APPLICATION PAGE REPLICA*/
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  padding: 0px;
+}
+
+/* The image section */
+.form-image-container {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+  height: 100vh;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  overflow-y: auto;
+}
+
+.altschool-illustration img {
+  max-width: 400px;
+  object-fit: contain;
+}
+
+.intro-text {
+  align-items: center;
+}
+
+.intro-text p {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0px;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.icons img {
+  max-width: 16px;
+}
+
+.contact-info {
+  align-items: center;
+}
+
+.contact-info p {
+  font-size: 12px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Text section */
+
+.form-texts-container {
+  width: 55%;
+  background-color: #fff;
+  font-size: 16px;
+  padding: 8px 32px;
+  overflow-y: scroll;
+}
+
+.form-texts-sign-in {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.form-texts-sign-in p {
+  color: #525252;
+  font-weight: 500;
+}
+
+.form-texts-sign-in a {
+  text-decoration: none;
+  color: var(--color-steel-blue);
+}
+
+.form-texts-sign-up p {
+  color: #555;
+  font-weight: 500;
+  margin-top: -10px;
+}
+
+/* Text (Form) section */
+form {
+  margin-top: 30px;
+}
+
+.form-inputs-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-inputs-container {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form-inputs-container label {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+input[type="tel"] {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+  background-color: #fafafa;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+input,
+::placeholder {
+  font-size: 14px;
+}
+
+.form-inputs-container select {
+  width: 87%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 10px;
+  background-color: #fafafa;
+  cursor: pointer;
+}
+
+#channel {
+  width: 93%;
+}
+
+.form-inputs-container option {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form-bottom-text p {
+  line-height: 1.5;
+}
+
+.form-bottom-text a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.form-submit-btn {
+  display: flex;
+}
+
+.form-submit-btn button {
+  width: 93%;
+  padding: 12px;
+  border: none;
+  background-color: var(--color-steel-blue);
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.homebtn {
+  text-decoration: none;
+  color: var(--color-steel-blue);
+  margin-top: -5px;
+  padding-bottom: 2px;
+}
+
+.homebtn:hover {
+  border-bottom: 2px solid var(--color-steel-blue);
+}
+
+/* Styles for TABLE.HTML
+ THE ALTSCHOOL COURSES AND SCHOOLS*/
+
+.tables-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-block: 32px;
+  padding-inline: 64px;
+}
+
+.tables-intro h1 {
+  font-size: 32px;
+  color: var(--color-steel-blue);
+  text-align: center;
+}
+
+.tables-intro p {
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.tables-main table {
+  border-collapse: separate;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.tables-main table caption {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.tables-main th,
+td {
+  border: 1px solid #000;
+  padding: 12px;
+  text-align: left;
+}
+
+.tables-signup p {
+  text-align: center;
+  font-weight: 600;
+}
+
+.tables-signup a {
+  text-decoration: none;
+  color: var(--color-steel-blue);
+  padding-bottom: 2px;
+}
+
+.tables-signup a:hover {
+  border-bottom: 2px solid var(--color-steel-blue);
+}
+
+/* Styles for MEDIA.HTML
+ THE MEDIA PAGE */
+
+.media-container {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 64px;
+  /* padding-block: 24px; */
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.media-intro h1 {
+  font-size: 48px;
+  color: var(--color-steel-blue);
+  text-align: center;
+}
+
+.media-intro-1 h3 {
+  font-size: 32px;
+  color: var(--color-steel-blue);
+  text-align: left;
+  font-weight: 500;
+  margin: 24px 0px 16px 0px;
+}
+
+.media-intro-1 p {
+  text-align: left;
+  line-height: 1.5;
+}
+
+.media-intro-2 h3 {
+  font-size: 32px;
+  color: var(--color-steel-blue);
+  text-align: left;
+  font-weight: 500;
+  margin: 24px 0px 16px 0px;
+}
+
+.media-intro-2 p {
+  text-align: left;
+  line-height: 1.5;
+}
+
+.media-picture h3 {
+  font-size: 32px;
+  color: var(--color-steel-blue);
+  text-align: left;
+  font-weight: 500;
+  margin: 24px 0px 16px 0px;
+}
+
+.picture-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.picture-container img {
+  border-radius: 20px;
+  max-width: 100%;
+  box-shadow: 0 4px 8px #00000011;
+}
+
+.media-picture p {
+  text-align: center;
+  font-weight: 600;
+}
+
+.media-audio h3 {
+  font-size: 32px;
+  color: var(--color-steel-blue);
+  text-align: left;
+  font-weight: 500;
+  margin: 24px 0px 16px 0px;
+}
+
+.media-audio p {
+  text-align: left;
+  line-height: 1.5;
+}
+
+.media-video h3 {
+  font-size: 32px;
+  color: var(--color-steel-blue);
+  text-align: left;
+  font-weight: 500;
+  margin: 24px 0px 16px 0px;
+}
+
+.media-video p {
+  text-align: left;
+  line-height: 1.5;
+}
+
+.video-container {
+  max-width: 100%;
+}
+
+.video-container video {
+  border-radius: 20px;
+  max-width: 100%;
+  box-shadow: 0 4px 8px #00000011;
+}
+
+.media-embbed h3 {
+  font-size: 32px;
+  color: var(--color-steel-blue);
+  text-align: left;
+  font-weight: 500;
+  margin: 24px 0px 16px 0px;
+}
+
+.media-embbed p {
+  text-align: left;
+  line-height: 1.5;
+}
+
+.media-embbed iframe {
+  border-radius: 15px;
+  max-width: 100%;
+  box-shadow: 0 4px 8px #00000011;
+}
+
+.media-summary h3 {
+  font-size: 32px;
+  color: var(--color-steel-blue);
+  text-align: left;
+  font-weight: 500;
+  margin: 24px 0px 16px 0px;
+}
+
+.media-summary p {
+  text-align: left;
+  line-height: 1.5;
+}
