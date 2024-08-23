@@ -254,6 +254,7 @@ footer button:hover {
   padding-top: 24px;
   height: 100vh;
   align-items: center;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   overflow-y: auto;
@@ -261,7 +262,8 @@ footer button:hover {
 
 .altschool-illustration img {
   max-width: 400px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .intro-text {
@@ -368,6 +370,22 @@ input[type="tel"] {
   background-color: #fafafa;
   margin-top: 10px;
   cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+  font-size: 14px;
+}
+
+::-moz-placeholder {
+  font-size: 14px;
+}
+
+:-ms-input-placeholder {
+  font-size: 14px;
+}
+
+::-ms-input-placeholder {
+  font-size: 14px;
 }
 
 input,
