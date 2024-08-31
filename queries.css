@@ -1,0 +1,482 @@
+/* For Small Desktops & Large Tablets 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* STYLING FOR HOMEPAGE */
+
+  /* Hero Section */
+  .hero-section {
+    padding: 16px 32px;
+  }
+
+  .hero-text h1 {
+    font-size: 56px;
+  }
+
+  .hero-text p {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .hero-image {
+    width: 50%;
+  }
+
+  .hero-text {
+    width: 50%;
+  }
+  .hero-image img {
+    max-width: 500px;
+    height: 500px;
+  }
+
+  /* Biography Section */
+
+  .biography-section {
+    padding: 32px 32px;
+  }
+
+  /* Reason Section */
+
+  .reason-section {
+    padding: 32px 32px;
+  }
+
+  /* Goals Section */
+
+  .goals-section {
+    padding: 32px 32px;
+  }
+
+  /* Apply Section */
+
+  .apply-section {
+    padding: 32px 32px;
+  }
+
+  /* STYLING FOR SCHOOLS & COURSES */
+
+  .tables-container {
+    padding-block: 32px;
+    padding-inline: 32px;
+  }
+
+  .tables-intro h1 {
+    font-size: 24px;
+  }
+
+  .tables-intro p {
+    font-size: 16px;
+  }
+
+  /* STYLING FOR MEDIA */
+
+  .media-container {
+    padding-inline: 32px;
+  }
+
+  .media-intro h1 {
+    font-size: 32px;
+  }
+
+  .media-intro-1 h3,
+  .media-intro-2 h3,
+  .media-picture h3,
+  .media-audio h3,
+  .media-video h3,
+  .media-embbed h3,
+  .media-summary h3 {
+    font-size: 24px;
+    margin: 24px 0px 16px 0px;
+  }
+
+  /* STYLING FOR APPLICATION FORM */
+
+  .form-image-container {
+    height: 100vh;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    overflow-y: auto;
+  }
+
+  .altschool-illustration img {
+    max-width: 400px;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+
+  .intro-text p {
+    font-size: 40px;
+    line-height: 1.3;
+    letter-spacing: -0.8px;
+  }
+
+  .icons {
+    margin-top: 30px;
+  }
+
+  .form-texts-container {
+    padding: 8px 24px;
+  }
+
+  .form-bottom-text {
+    padding-right: 16px;
+  }
+
+  .form-bottom-text p {
+    line-height: 1.5;
+    font-size: 14px;
+  }
+
+  .form-inputs-container select {
+    width: 88%;
+  }
+
+  #channel {
+    width: 94%;
+  }
+}
+
+/* For Small Tablets 768px */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* STYLING FOR HOMEPAGE */
+
+  /* Hero Section */
+  .hero-section {
+    padding: 16px 24px;
+  }
+
+  .hero-text h1 {
+    font-size: 48px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .hero-image {
+    width: 50%;
+  }
+
+  .hero-text {
+    width: 50%;
+  }
+  .hero-image img {
+    max-width: 400px;
+    height: 400px;
+  }
+
+  /* Biography , Reason , Goals & Apply Section */
+
+  .biography-section,
+  .reason-section,
+  .goals-section,
+  .apply-section {
+    padding: 32px 24px;
+  }
+
+  .biography-section h3,
+  .reason-section h3,
+  .goals-section h3,
+  .apply-section h3 {
+    font-size: 24px;
+    padding: 10px 16px;
+  }
+
+  #fragment-container {
+    padding: 16px 24px;
+  }
+
+  #fragment-container li {
+    margin-right: 24px;
+    font-size: 14px;
+    align-items: center;
+  }
+
+  #fragment-container a {
+    text-align: center;
+  }
+
+  /* STYLING FOR SCHOOLS & COURSES */
+
+  .tables-container {
+    padding-block: 16px;
+    padding-inline: 24px;
+  }
+
+  .tables-intro h1 {
+    font-size: 24px;
+  }
+
+  .tables-intro p {
+    font-size: 16px;
+    padding-inline: 24px;
+  }
+
+  .tables-main th,
+  td {
+    padding: 8px;
+  }
+
+  /* STYLING FOR MEDIA */
+
+  .media-container {
+    padding-inline: 24px;
+  }
+
+  .media-intro h1 {
+    font-size: 32px;
+  }
+
+  .media-intro-1 h3,
+  .media-intro-2 h3,
+  .media-picture h3,
+  .media-audio h3,
+  .media-video h3,
+  .media-embbed h3,
+  .media-summary h3 {
+    font-size: 24px;
+    margin: 24px 0px 16px 0px;
+  }
+
+  /* STYLING FOR APPLICATION FORM */
+
+  .form-image-container {
+    display: none;
+  }
+  .form-texts-container {
+    width: auto;
+    font-size: 16px;
+    padding: 8px 32px;
+  }
+
+  .form-bottom-text {
+    padding-right: 24px;
+  }
+
+  .form-bottom-text p {
+    line-height: 1.5;
+    font-size: 14px;
+  }
+
+  .form-inputs-container select {
+    width: 86%;
+  }
+
+  #channel {
+    width: 93%;
+  }
+
+  .form-inputs-container label {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .form-inputs-row {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+    
+    /* STYLING FOR HOMEPAGE */
+
+    /* STYLING FOR FOOTER */
+    footer {
+      padding: 16px 16px;
+    }
+
+   /* NAV section */
+
+   .navbtn {
+    margin-right: 16px;
+    font-size: 14px;
+    padding: 8px;
+  }
+  
+  #applyBtn {
+    padding: 8px;
+  }
+
+
+  /* Hero Section */
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px;
+  }
+
+  .hero-text h1 {
+    font-size: 36px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+    margin-top: -8px;
+  }
+
+  .hero-image {
+    width: auto;
+  }
+
+  .hero-text {
+    width: auto;
+  }
+  .hero-image img {
+    max-width: 300px;
+    height: 300px;
+  }
+
+  /* Biography , Reason , Goals & Apply Section */
+
+  .biography-section,
+  .reason-section,
+  .goals-section,
+  .apply-section {
+    padding: 24px 16px;
+  }
+
+  .biography-section h3,
+  .reason-section h3,
+  .goals-section h3,
+  .apply-section h3 {
+    font-size: 18px;
+    padding: 8px 8px;
+  }
+
+  .goals-section h3{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #fragment-container {
+    padding: 16px 16px;
+  }
+
+  #fragment-container li {
+    margin-right: 16px;
+    font-size: 14px;
+    align-items: center;
+  }
+
+  #fragment-container a {
+    text-align: center;
+  }
+
+  /* STYLING FOR SCHOOLS & COURSES */
+
+  .tables-container {
+    padding-block: 8px;
+    padding-inline: 16px;
+  }
+
+  .tables-intro h1 {
+    font-size: 24px;
+  }
+
+  .tables-intro p {
+    font-size: 16px;
+    padding-inline: 4px;
+  }
+
+  .tables-main th,
+  td {
+    padding: 8px;
+  }
+
+  .tables-signup p {
+    padding-inline: 8px;
+  }
+
+
+  /* STYLING FOR MEDIA */
+
+  .media-container {
+    padding-inline: 16px;
+  }
+
+  .media-intro h1 {
+    font-size: 24px;
+  }
+
+  .media-intro-1 h3,
+  .media-intro-2 h3,
+  .media-picture h3,
+  .media-audio h3,
+  .media-video h3,
+  .media-embbed h3,
+  .media-summary h3 {
+    font-size: 18px;
+    margin: 24px 0px 16px 0px;
+  }
+
+  /* STYLING FOR APPLICATION FORM */
+
+  .form-image-container {
+    display: none;
+  }
+  .form-texts-container {
+    width: auto;
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+  .form-texts-sign-in {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 0px;
+  }
+
+  .form-inputs-row {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .form-inputs-container {
+    flex: 1;
+    margin-right: 10px;
+    width: 100%;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="password"],
+  input[type="date"],
+  input[type="tel"] {
+  width: 95%;
+  }
+
+  .form-bottom-text {
+    padding-right: 16px;
+  }
+
+  .form-bottom-text p {
+    line-height: 1.5;
+    font-size: 14px;
+  }
+
+  .form-inputs-container select {
+    width: 100%;
+  }
+
+  #channel {
+    width: 100%;
+  }
+
+  .form-inputs-container label {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .form-inputs-row {
+    margin-bottom: 10px;
+  }
+
+  .form-submit-btn button {
+    width: 100%;
+  }
+
+}

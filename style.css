@@ -3,7 +3,6 @@ body {
   margin: 0 auto;
   padding: 0;
   background-color: var(--color-beige);
-  /* overflow-x: hidden; */
 }
 
 :root {
@@ -263,7 +262,7 @@ footer button:hover {
 .altschool-illustration img {
   max-width: 400px;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .intro-text {
@@ -308,7 +307,6 @@ footer button:hover {
   background-color: #fff;
   font-size: 16px;
   padding: 8px 32px;
-  overflow-y: scroll;
 }
 
 .form-texts-sign-in {
@@ -415,6 +413,10 @@ input,
   font-size: 14px;
 }
 
+.form-bottom-text {
+  padding-right: 35px;
+}
+
 .form-bottom-text p {
   line-height: 1.5;
 }
@@ -468,6 +470,7 @@ input,
 }
 
 .tables-intro p {
+  padding-inline: 64px;
   font-weight: 500;
   font-size: 18px;
   text-align: center;
@@ -526,7 +529,13 @@ td {
   text-align: center;
 }
 
-.media-intro-1 h3 {
+.media-intro-1 h3,
+.media-intro-2 h3,
+.media-picture h3,
+.media-audio h3,
+.media-video h3,
+.media-embbed h3,
+.media-summary h3 {
   font-size: 32px;
   color: var(--color-steel-blue);
   text-align: left;
@@ -539,25 +548,9 @@ td {
   line-height: 1.5;
 }
 
-.media-intro-2 h3 {
-  font-size: 32px;
-  color: var(--color-steel-blue);
-  text-align: left;
-  font-weight: 500;
-  margin: 24px 0px 16px 0px;
-}
-
 .media-intro-2 p {
   text-align: left;
   line-height: 1.5;
-}
-
-.media-picture h3 {
-  font-size: 32px;
-  color: var(--color-steel-blue);
-  text-align: left;
-  font-weight: 500;
-  margin: 24px 0px 16px 0px;
 }
 
 .picture-container {
@@ -578,25 +571,9 @@ td {
   font-weight: 600;
 }
 
-.media-audio h3 {
-  font-size: 32px;
-  color: var(--color-steel-blue);
-  text-align: left;
-  font-weight: 500;
-  margin: 24px 0px 16px 0px;
-}
-
 .media-audio p {
   text-align: left;
   line-height: 1.5;
-}
-
-.media-video h3 {
-  font-size: 32px;
-  color: var(--color-steel-blue);
-  text-align: left;
-  font-weight: 500;
-  margin: 24px 0px 16px 0px;
 }
 
 .media-video p {
@@ -614,14 +591,6 @@ td {
   box-shadow: 0 4px 8px #00000011;
 }
 
-.media-embbed h3 {
-  font-size: 32px;
-  color: var(--color-steel-blue);
-  text-align: left;
-  font-weight: 500;
-  margin: 24px 0px 16px 0px;
-}
-
 .media-embbed p {
   text-align: left;
   line-height: 1.5;
@@ -631,14 +600,6 @@ td {
   border-radius: 15px;
   max-width: 100%;
   box-shadow: 0 4px 8px #00000011;
-}
-
-.media-summary h3 {
-  font-size: 32px;
-  color: var(--color-steel-blue);
-  text-align: left;
-  font-weight: 500;
-  margin: 24px 0px 16px 0px;
 }
 
 .media-summary p {
