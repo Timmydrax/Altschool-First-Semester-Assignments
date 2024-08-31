@@ -279,26 +279,24 @@
 }
 
 @media screen and (max-width: 480px) {
-    
-    /* STYLING FOR HOMEPAGE */
+  /* STYLING FOR HOMEPAGE */
 
-    /* STYLING FOR FOOTER */
-    footer {
-      padding: 16px 16px;
-    }
+  /* STYLING FOR FOOTER */
+  footer {
+    padding: 16px 16px;
+  }
 
-   /* NAV section */
+  /* NAV section */
 
-   .navbtn {
+  .navbtn {
     margin-right: 16px;
     font-size: 14px;
     padding: 8px;
   }
-  
+
   #applyBtn {
     padding: 8px;
   }
-
 
   /* Hero Section */
   .hero-section {
@@ -345,7 +343,7 @@
     padding: 8px 8px;
   }
 
-  .goals-section h3{
+  .goals-section h3 {
     display: flex;
     flex-wrap: wrap;
   }
@@ -383,12 +381,12 @@
   .tables-main th,
   td {
     padding: 8px;
+    font-size: 14px;
   }
 
   .tables-signup p {
     padding-inline: 8px;
   }
-
 
   /* STYLING FOR MEDIA */
 
@@ -422,10 +420,10 @@
     padding: 8px 16px;
   }
   .form-texts-sign-in {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
   }
 
   .form-inputs-row {
@@ -446,7 +444,7 @@
   input[type="password"],
   input[type="date"],
   input[type="tel"] {
-  width: 95%;
+    width: 95%;
   }
 
   .form-bottom-text {
@@ -478,5 +476,4 @@
   .form-submit-btn button {
     width: 100%;
   }
-
 }
